@@ -22,7 +22,7 @@ const Technologies = () =>  (
     <ListItem>
       <DiFirebase size='3rem'/>
       <ListContainer>
-        <ListTitle>Backend-End</ListTitle>
+        <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experienced with <br/>
           Node and Databases
