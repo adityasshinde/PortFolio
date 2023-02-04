@@ -7,19 +7,15 @@ export const Boxes = styled.div`
   justify-content:left;
   gap: 24px;
   margin: 24px 0 40px;
-
   @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
     margin: 20px 0 32px;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    max-width: 500px;
+    display: flex;
     margin: 24px auto;
+    flex-direction: column;
   }
 `
 
@@ -27,25 +23,26 @@ export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
   height: 194px;
-  max-width:31%;
+  width:31%;
   padding: 20px;
   @media ${props => props.theme.breakpoints.lg} {
-    height: 210px;
-
+    height: 200px;
+    max-width:100%;
+    width:90%;
+    padding: 30px;
+  
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 135px;
-    padding: 16px;
-  }
-
-  @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
-    padding: 12px;
+    height: 200px;
+    padding: 30px;
+    width:90%;
     
-    &:nth-child(2n){
-      grid-row:2;
-    }
+  }
+  @media ${props => props.theme.breakpoints.sm} {
+    height: 200px;
+    padding: 30px;
+    
   }
 `
 export const BoxNum = styled.h5`
