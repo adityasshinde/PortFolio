@@ -21,7 +21,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: 'Started my journey as programmer', },
-  { year: 2022, text: 'Learnt Various skills like Web-Dev, C, C++, Java, Python', },
+  { year: 2019, text: 'Passed Secondary School Examination (Class 10th)', },
+  { year: 2021, text: 'Passed Senior School Examination (Class 12th) & Started my journey as programmer', },
+  { year: 2022, text: 'Joined IIIT Kottayam & Learnt Various skills like Web-Dev, C, C++, Java, Python', },
   { year: 2023, text: 'Worked on React & NextJs projects', },
 ];
