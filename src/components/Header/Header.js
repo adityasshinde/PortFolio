@@ -8,7 +8,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './Header
 const Header = () =>  (
 <Container>
   <Head>
-    <title>Aditya Shinde's Portfolio</title>
+    <title>Aditya Shinde Portfolio</title>
   </Head>
   <Div1>
     <Link href='/'>

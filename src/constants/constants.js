@@ -10,9 +10,9 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Shopee',
+    title: 'ShopEE',
     description:"A Full Stack production ready ecommerce digital store with modern technology and full payment support. Built GUI using React/Redux/Next and Integrated frontend with Sanity. Managed ‘Sanity’ (platform for structured content) backend and ‘Stripe’ payment API.",
-    image: '/images/2.png',
+    image: '/images/2.jpg',
     tags: ['React', 'Next','Redux','Sanity','Stripe'],
     source: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
     visit: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
