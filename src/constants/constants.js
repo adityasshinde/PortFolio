@@ -15,7 +15,7 @@ export const projects = [
     image: '/images/2.jpg',
     tags: ['React', 'Next','Redux','Sanity','Stripe'],
     source: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
-    visit: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
+    visit: 'https://shopee-adityashinde.vercel.app/',
     id: 1,
   },
 ];
