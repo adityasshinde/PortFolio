@@ -10,12 +10,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Shopee',
+    description:"A Full Stack production ready ecommerce digital store with modern technology and full payment support. Built GUI using React/Redux/Next and Integrated frontend with Sanity. Managed ‘Sanity’ (platform for structured content) backend and ‘Stripe’ payment API.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['React', 'Next','Redux','Sanity','Stripe'],
+    source: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
+    visit: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
     id: 1,
   },
 ];

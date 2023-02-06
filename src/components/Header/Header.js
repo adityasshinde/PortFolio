@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Head from 'next/head';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
@@ -6,6 +7,9 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './Header
 
 const Header = () =>  (
 <Container>
+  <Head>
+    <title>Aditya Shinde's Portfolio</title>
+  </Head>
   <Div1>
     <Link href='/'>
       <span style={{display:'flex', alignItems:'center',color:'white',marginBottom:'20px'}}>
