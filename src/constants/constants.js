@@ -3,7 +3,7 @@ export const projects = [
   {
     title: 'AgroConnect',
     description: "An online marketplace connecting farmers and consumers, enabling direct sales of farm products. Customers can purchase products using tokens (AGC), which they acquire by paying in Ethereum. The platform also includes a Farmers Corner educational section, where farmers can learn best practices and techniques for farming.",
-      image: 'images/agc.jpg',
+      image: 'images/1.jpg',
       tags: ['React', 'Solidity', 'Django', 'Firebase','ethers.js'],
     source: 'https://github.com/adityasshinde/Agro-Connect-Full-Project',
     visit: 'https://github.com/adityasshinde/Agro-Connect-Full-Project',
@@ -18,6 +18,15 @@ export const projects = [
     visit: 'https://shopee-adityashinde.vercel.app/',
     id: 1,
   },
+  {
+    title: 'Events Manager',
+    description:"Single page application which authenticates users on signup as well on login and manages access of page manipulations like adding new events or editing events. Authentication is tasted using the node.js and users data is saved in the file events.json",
+    image: '/images/3.jpg',
+    tags: ['ReactJS', 'NodeJS','CSS','React-Router'],
+    source: 'https://github.com/adityasshinde/Events',
+    visit: 'https://github.com/adityasshinde/Events',
+    id: 2,
+  }
 ];
 
 export const TimeLineData = [
