@@ -6,7 +6,7 @@ export const projects = [
       image: 'images/1.jpg',
       tags: ['React', 'Solidity', 'Django', 'Firebase','ethers.js'],
     source: 'https://github.com/adityasshinde/Agro-Connect-Full-Project',
-    visit: 'https://github.com/adityasshinde/Agro-Connect-Full-Project',
+    visit: 'https://devfolio.co/projects/agroconnect-cc4f',
     id: 0,
   },
   {
