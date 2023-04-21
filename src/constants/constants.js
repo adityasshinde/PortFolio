@@ -33,5 +33,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Passed Secondary School Examination (Class 10th)', },
   { year: 2021, text: 'Passed Senior School Examination (Class 12th) & Started my journey as programmer', },
   { year: 2022, text: 'Joined IIIT Kottayam & Learnt Various skills like Web-Dev, C, C++, Java, Python', },
-  { year: 2023, text: 'Worked on React & NextJs projects', },
+  { year: 2023, text: 'Joined Tortoise Creative Inc. as Full-Stack intern. Working on React and GoLang based projects.', },
 ];

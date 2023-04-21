@@ -10,13 +10,15 @@ const Experience = () => {
     <SectionTitle main>Experience</SectionTitle>
     <Card>
    <div>
-   <img src='https://media.licdn.com/dms/image/C4D0BAQF7k9EsNnMGvw/company-logo_100_100/0/1655481176638?e=1685577600&v=beta&t=KSEE38h3glStluv_hSgsg-nLgrqoXKsVif5XOfk9hzU' alt='loading'></img>
+   <img src="https://media.licdn.com/dms/image/D560BAQE3hzK70-NMtg/company-logo_200_200/0/1681543881257?e=1690416000&v=beta&t=DozDyjtCxucWgqSB0mGHZ4T38D3BxyEN5Xlp18yrk9g" alt='loading' style={{width:"150px"}}></img>
    </div>
       <Inf>
         <h2>Full Stack Developer</h2>
         <H4><a href='https://www.happilyever.co/'>HappilyEver.co </a><AiFillSafetyCertificate size='1.5rem'/>Internship</H4>
         <P>Remote</P>
         <P>March 2023 - Present</P>
+        <P>Go (Programming Language), React</P>
+        <P>AWS, Git, Postman, MongoDB</P>
       </Inf>
     </Card>
   </Section>

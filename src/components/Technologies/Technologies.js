@@ -7,7 +7,7 @@ const Technologies = () =>  (
  <Section id='tech'>
   <SectionDivider/>
   <SectionTitle>Technologies</SectionTitle>
-  <SectionText>I have worked with some students to develop a projects that was based on blockchain technologies and django integrated with react.</SectionText>
+  <SectionText>I am working with React and Go (Programming Language) based projects as Full-Stack Intern at Tortoise Creative.</SectionText>
   <List>
     <ListItem>
       <DiReact size='3rem'/>
@@ -25,7 +25,17 @@ const Technologies = () =>  (
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experienced with <br/>
-          Node and Databases
+          Go (Programming Language) and NodeJS
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    <ListItem>
+      <DiFirebase size='3rem'/>
+      <ListContainer>
+        <ListTitle>Database Management</ListTitle>
+        <ListParagraph>
+          Experienced with <br/>
+          MongoDB, Firebase and Sanity
         </ListParagraph>
       </ListContainer>
     </ListItem>
