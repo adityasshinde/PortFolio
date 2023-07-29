@@ -1,13 +1,22 @@
 
 export const projects = [
   {
+    title: 'Helpera',
+    description: "We come up with a solution providing a web-based application called the **Helpera** which tries to link volunteers with organizations and events that require volunteers. The platform enables organizations to post and manage their volunteer opportunities while also enabling volunteers to browse and apply to opportunities based on their interests and availability.",
+      image: 'images/1.jpg',
+      tags: ['React', 'Redux', 'MongoDB', 'Node.Js'],
+    source: 'https://github.com/adityasshinde/Helpera-Frontend',
+    visit: 'https://github.com/adityasshinde/Helpera-Backend',
+    id: 0,
+  },
+  {
     title: 'AgroConnect',
     description: "An online marketplace connecting farmers and consumers, enabling direct sales of farm products. Customers can purchase products using tokens (AGC), which they acquire by paying in Ethereum. The platform also includes a Farmers Corner educational section, where farmers can learn best practices and techniques for farming.",
       image: 'images/1.jpg',
       tags: ['React', 'Solidity', 'Django', 'Firebase','ethers.js'],
     source: 'https://github.com/adityasshinde/Agro-Connect-Full-Project',
     visit: 'https://devfolio.co/projects/agroconnect-cc4f',
-    id: 0,
+    id: 1,
   },
   {
     title: 'ShopEE',
@@ -16,7 +25,7 @@ export const projects = [
     tags: ['React', 'Next','Redux','Sanity','Stripe'],
     source: 'https://github.com/adityasshinde/Shopee_eccomerce_sanity_stripe',
     visit: 'https://shopee-adityashinde.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Events Manager',
@@ -25,7 +34,7 @@ export const projects = [
     tags: ['ReactJS', 'NodeJS','CSS','React-Router'],
     source: 'https://github.com/adityasshinde/Events',
     visit: 'https://github.com/adityasshinde/Events',
-    id: 2,
+    id: 3,
   }
 ];
 
