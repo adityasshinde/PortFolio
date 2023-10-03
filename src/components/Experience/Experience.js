@@ -2,6 +2,7 @@ import React from 'react';
 import { Card,Inf,P,H4 } from './ExperienceStyles';
 import { AiFillSafetyCertificate} from 'react-icons/ai';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import logo from '../../../public/images/logo.svg';
 
 
 const Experience = () => {
@@ -10,7 +11,8 @@ const Experience = () => {
     <SectionTitle main>Experience</SectionTitle>
     <Card>
    <div>
-   <img src="https://media.licdn.com/dms/image/D560BAQE3hzK70-NMtg/company-logo_200_200/0/1681543881257?e=1690416000&v=beta&t=DozDyjtCxucWgqSB0mGHZ4T38D3BxyEN5Xlp18yrk9g" alt='loading' style={{width:"150px"}}></img>
+   <img src='https://www.happilyever.co/static/media/newLogo.aa017d5297ade31296050058d61d207d.svg' alt='Loading' 
+   style={{background:'white',width:'150px'}} />
    </div>
       <Inf>
         <h2>Full Stack Developer</h2>

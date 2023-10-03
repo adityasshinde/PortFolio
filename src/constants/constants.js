@@ -3,7 +3,7 @@ export const projects = [
   {
     title: 'Helpera',
     description: "We come up with a solution providing a web-based application called the **Helpera** which tries to link volunteers with organizations and events that require volunteers. The platform enables organizations to post and manage their volunteer opportunities while also enabling volunteers to browse and apply to opportunities based on their interests and availability.",
-      image: 'images/1.jpg',
+      image: 'images/4.png',
       tags: ['React', 'Redux', 'MongoDB', 'Node.Js'],
     source: 'https://github.com/adityasshinde/Helpera-Frontend',
     visit: 'https://github.com/adityasshinde/Helpera-Backend',
