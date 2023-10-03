@@ -12,7 +12,8 @@ const Hero = (props) => (
        Aditya Shinde
 </SectionTitle>
 <SectionText>
-  Over the last one and half years as a programmer, I have learnt problem solving skills, worked in teams to build projects.
+  
+"As a third-year Computer Science student, I bring a passion for technology and a proven track record, with a 3-month full-stack internship and collaborative project experiences, showcasing my dedication to innovation and teamwork."
 </SectionText>
 <Button onClick={()=>window.location='https://github.com/adityasshinde'} target='_blank'>Learn more</Button>
     </LeftSection>
