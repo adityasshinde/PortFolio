@@ -11,6 +11,20 @@ const Experience = () => {
     <SectionTitle main>Experience</SectionTitle>
     <Card>
    <div>
+   <img src='https://avatars.githubusercontent.com/u/43116515?v=4' alt='Loading' 
+   style={{background:'white',width:'150px'}} />
+   </div>
+      <Inf>
+        <h2>Cyber Security Lead</h2>
+        <H4><a href='https://www.iiitkottayam.ac.in/#!/codingClub'>IIIT Kottayam </a><AiFillSafetyCertificate size='1.5rem'/> BetaLabs</H4>
+        <P>October 2023 - Present</P>
+        <P>Leadership, Event Management, Collaborations,</P>
+        <P>Public Speaking & Communication,</P>
+        <P>Creative Execution, Organizing Hackthons, Fests & Contests</P>
+      </Inf>
+    </Card>
+    <Card>
+   <div>
    <img src='https://www.happilyever.co/static/media/newLogo.aa017d5297ade31296050058d61d207d.svg' alt='Loading' 
    style={{background:'white',width:'150px'}} />
    </div>
