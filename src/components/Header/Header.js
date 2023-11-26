@@ -3,6 +3,7 @@ import Head from 'next/head';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
+import { SiLeetcode } from "react-icons/si";
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
 
 const Header = () =>  (
@@ -46,7 +47,10 @@ const Header = () =>  (
     <SocialIcons href='https://www.linkedin.com/in/aditya-shinde11/' target='_blank'>
       <AiFillLinkedin size='3rem'/>
     </SocialIcons>
-    <SocialIcons href='https://www.instagram.com/im.aditya.s/?igshid=ZDdkNTZiNTM%3D' target='_blank'>
+    <SocialIcons href='https://leetcode.com/aditya__shinde/' target='_blank'>
+      <SiLeetcode size='3rem'/>
+    </SocialIcons>
+    <SocialIcons href='https://www.instagram.com/im.adityashinde/?igshid=M2RkZGJiMzhjOQ==' target='_blank'>
       <AiFillInstagram size='3rem'/>
     </SocialIcons>
   </Div3>

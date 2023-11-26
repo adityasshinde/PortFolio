@@ -1,5 +1,8 @@
 import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FaServer } from "react-icons/fa";
+import { FaTools } from "react-icons/fa";
+import { FcMultipleDevices } from "react-icons/fc";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -10,17 +13,27 @@ const Technologies = () =>  (
   <SectionText>I am working with React and Go (Programming Language) based projects as Full-Stack Intern at Tortoise Creative.</SectionText>
   <List>
     <ListItem>
+      <FcMultipleDevices size='3rem'/>
+      <ListContainer>
+        <ListTitle>Programming Language</ListTitle>
+        <ListParagraph>
+          Experienced in <br/>
+          JavaScript, C++, Python, SQL, Java
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    <ListItem>
       <DiReact size='3rem'/>
       <ListContainer>
         <ListTitle>Front-End</ListTitle>
         <ListParagraph>
           Experienced with <br/>
-          React.js
+          React.js, TypeScript
         </ListParagraph>
       </ListContainer>
     </ListItem>
     <ListItem>
-      <DiFirebase size='3rem'/>
+      <FaServer size='2rem'/>
       <ListContainer>
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
@@ -45,7 +58,17 @@ const Technologies = () =>  (
         <ListTitle>UI/UX</ListTitle>
         <ListParagraph>
           Experienced with <br/>
-          tools like figma
+          tools like TailWind CSS & Figma
+        </ListParagraph>
+      </ListContainer>
+    </ListItem>
+    <ListItem>
+      <FaTools size='2rem'/>
+      <ListContainer>
+        <ListTitle>Tools</ListTitle>
+        <ListParagraph>
+          Experienced in <br/>
+          Github, Postman, AWS
         </ListParagraph>
       </ListContainer>
     </ListItem>
